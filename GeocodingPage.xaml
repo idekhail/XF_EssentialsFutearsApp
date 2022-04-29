@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    Title="Geocoding"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XF_Text_to_Speech1.GeocodingPage">
+    <ContentPage.Content >
+        <StackLayout>
+            <StackLayout Margin="20" BackgroundColor="Black">
+                <Entry Placeholder="Enter Your Address" x:Name="myAddress" Margin="10"></Entry>
+                <Entry Placeholder="Enter Latitude" x:Name="latit"  Margin="10"></Entry>
+                <Entry Placeholder="Enter Longitude" x:Name="longit"  Margin="10"></Entry>
+            </StackLayout>
+            <StackLayout  Margin="20"  WidthRequest="120" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Text="Get location data" x:Name="GetAddress" Clicked="GetAddress_Clicked"></Button>
+                <Button Text="Get placemark data" Clicked="GetPlaceMarkData"></Button>
+            </StackLayout>
+            <StackLayout  Margin="20" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                <Label Text="Location data" FontAttributes="Bold"></Label>
+                <Label x:Name="show1"></Label>
+                <Label Text="Placemark data" FontAttributes="Bold"></Label>
+                <Label x:Name="show2"></Label>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

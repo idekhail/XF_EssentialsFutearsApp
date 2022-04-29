@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Text_to_Speech1.MainPage">
+    <StackLayout>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                 <Label Text="Main Page" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center"  VerticalOptions="StartAndExpand" Orientation="Horizontal" Spacing="40">
+            <StackLayout  HorizontalOptions="Center"  VerticalOptions="StartAndExpand">
+                <Button Text="Detect Shake"     Clicked="DetectShake_Clicked"   BackgroundColor="Green" TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Text To Speech"   Clicked="Speek_Clicked"         BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Flash Light"      Clicked="FlashLight_Clicked"    BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Units"            Clicked="Units_Clicked"         BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Compass"          Clicked="Compass_Clicked"       BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Kiblah"           Clicked="Kiblah_Clicked"        BackgroundColor="Green" TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Vibrate"          Clicked="Vibrate_Clicked"       BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="GeoLocation"      Clicked="GeoLocation_Clicked"   BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Battery"          Clicked="Battery_Clicked"       BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+            </StackLayout>
+            <StackLayout  HorizontalOptions="Center"  VerticalOptions="StartAndExpand">
+                <Button Text="Barometer"        Clicked="Barometer_Clicked"     BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Accelerometer"    Clicked="Accelerometer_Clicked" BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Send SMS"         Clicked="SMS_Clicked"           BackgroundColor="Green" TextColor="White" HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Geocoding"        Clicked="Geocoding_Clicked"     BackgroundColor="Green" TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Gyroscope"        Clicked="Gyroscope_Clicked"     BackgroundColor="Green"  TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="Magnetometer"     Clicked="Magnetometer_Clicked"  BackgroundColor="Green"  TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="weather API"      Clicked="Weather_Clicked"       BackgroundColor="Green"  TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="MySqlDB"          Clicked="MySqlDB_Clicked"       BackgroundColor="Green"  TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+                <Button Text="SqlDB"            Clicked="SqlDB_Clicked"         BackgroundColor="Green"  TextColor="White"  HorizontalOptions="Center" WidthRequest="120" ></Button>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    Title="Detect Shake"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="XF_Text_to_Speech1.DetectShakePage">
+    
+    <ContentPage.Content>
+        <Label x:Name="lblMeasure" 
+               HorizontalOptions="CenterAndExpand" 
+               VerticalOptions="Center"  
+               Text="Shake the device to see an alert">
+        </Label>
+    </ContentPage.Content>
+</ContentPage>

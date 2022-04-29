@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Text_to_Speech1.SMSPage">
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Send Text as SMS" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label x:Name="SMSText1" Text="Welcome" FontSize="16" Padding="30,0,30,0"/>
+        <Label x:Name="SMSRecipient" Text="0555144757" FontSize="16" Padding="30,0,30,0"/>
+
+        <Button Text="SMSButton" x:Name="SMSButton" Clicked="SMSButton_Clicked" />
+    </StackLayout>
+</ContentPage>

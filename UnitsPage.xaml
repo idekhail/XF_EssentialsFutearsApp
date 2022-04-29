@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XF_Text_to_Speech1.UnitsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="Units Page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout>
+                <Entry Placeholder="Units Page" x:Name="input1" Keyboard="Numeric"
+                VerticalOptions="CenterAndExpand"  WidthRequest="200"
+                HorizontalOptions="CenterAndExpand" />
+                <Label Text="--------" x:Name="show"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="F --> C" x:Name="FehToCel" Clicked="FehToCel_Clicked"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Button Text="C --> F" x:Name="CelToFeh" Clicked="CelToFeh_Clicked"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
